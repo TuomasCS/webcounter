@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"></html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <title>Laskuri</title>
@@ -16,6 +16,11 @@
     <button type="submit">
       Nollaa
     </button>
+  </form>
+  <form action="/set-clicks" method="POST">
+    <label for="clicks">Set clicks:</label>
+    <input id="clicks" name="clicks" type="number" min="0" step="1" required>
+    <button type="submit">Set clicks</button>
   </form>
 </body>
 </html>
